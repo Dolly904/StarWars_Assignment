@@ -44,32 +44,32 @@ formatter.match({
   "location": "StarWarsStepDefi.userLaunchURL()"
 });
 formatter.result({
-  "duration": 7993442700,
+  "duration": 34120865500,
   "status": "passed"
 });
 formatter.match({
   "location": "StarWarsStepDefi.validDataforAllCharacters()"
 });
 formatter.result({
-  "duration": 66631600,
+  "duration": 236641900,
   "status": "passed"
 });
 formatter.match({
   "location": "StarWarsStepDefi.clickRequestforAllCharacters()"
 });
 formatter.result({
-  "duration": 265090600,
+  "duration": 474360500,
   "status": "passed"
 });
 formatter.match({
   "location": "StarWarsStepDefi.validate_the_output_is_displayed_or_not()"
 });
 formatter.result({
-  "duration": 77369800,
+  "duration": 102349900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1824315100,
+  "duration": 1899572800,
   "status": "passed"
 });
 formatter.scenario({
@@ -110,32 +110,32 @@ formatter.match({
   "location": "StarWarsStepDefi.useMustOpenSwapi()"
 });
 formatter.result({
-  "duration": 6746738900,
+  "duration": 6894240100,
   "status": "passed"
 });
 formatter.match({
   "location": "StarWarsStepDefi.allCharInvalidData()"
 });
 formatter.result({
-  "duration": 101786300,
+  "duration": 125105600,
   "status": "passed"
 });
 formatter.match({
   "location": "StarWarsStepDefi.clickRequestforAllCharInvalidData()"
 });
 formatter.result({
-  "duration": 264392300,
+  "duration": 287298700,
   "status": "passed"
 });
 formatter.match({
   "location": "StarWarsStepDefi.checkAllCharInvalidDataResult()"
 });
 formatter.result({
-  "duration": 76248500,
+  "duration": 55007500,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1702845100,
+  "duration": 1563089100,
   "status": "passed"
 });
 formatter.scenario({
@@ -176,32 +176,32 @@ formatter.match({
   "location": "StarWarsStepDefi.userOnSwapi()"
 });
 formatter.result({
-  "duration": 7384174700,
+  "duration": 7424371500,
   "status": "passed"
 });
 formatter.match({
   "location": "StarWarsStepDefi.validServiceURLofSpecificCharacter()"
 });
 formatter.result({
-  "duration": 120436500,
+  "duration": 84646800,
   "status": "passed"
 });
 formatter.match({
   "location": "StarWarsStepDefi.click_on_Request_button()"
 });
 formatter.result({
-  "duration": 258555400,
+  "duration": 258709500,
   "status": "passed"
 });
 formatter.match({
   "location": "StarWarsStepDefi.checkFinalResult()"
 });
 formatter.result({
-  "duration": 67662600,
+  "duration": 33368000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1702776700,
+  "duration": 2169467900,
   "status": "passed"
 });
 formatter.scenario({
@@ -242,32 +242,32 @@ formatter.match({
   "location": "StarWarsStepDefi.userLaunchSwapi()"
 });
 formatter.result({
-  "duration": 7357329400,
+  "duration": 8663702900,
   "status": "passed"
 });
 formatter.match({
   "location": "StarWarsStepDefi.invalidServiceURLforSpecificCharacter()"
 });
 formatter.result({
-  "duration": 118140500,
+  "duration": 117846900,
   "status": "passed"
 });
 formatter.match({
   "location": "StarWarsStepDefi.requestButtonforInvalidSpecificCharacterURL()"
 });
 formatter.result({
-  "duration": 269279100,
+  "duration": 258059200,
   "status": "passed"
 });
 formatter.match({
   "location": "StarWarsStepDefi.resultofInvalidserviceURLforspecificChar()"
 });
 formatter.result({
-  "duration": 55782600,
+  "duration": 56212000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1739558900,
+  "duration": 1946333100,
   "status": "passed"
 });
 formatter.scenario({
@@ -308,32 +308,32 @@ formatter.match({
   "location": "StarWarsStepDefi.openSwapi()"
 });
 formatter.result({
-  "duration": 8423404800,
+  "duration": 7817536200,
   "status": "passed"
 });
 formatter.match({
   "location": "StarWarsStepDefi.searchWithValidData()"
 });
 formatter.result({
-  "duration": 117747200,
+  "duration": 109851100,
   "status": "passed"
 });
 formatter.match({
   "location": "StarWarsStepDefi.requestButtonforValidSearch()"
 });
 formatter.result({
-  "duration": 281933900,
+  "duration": 276480200,
   "status": "passed"
 });
 formatter.match({
   "location": "StarWarsStepDefi.resultofValidSearchData()"
 });
 formatter.result({
-  "duration": 43517600,
+  "duration": 52605100,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1503662800,
+  "duration": 1610078700,
   "status": "passed"
 });
 formatter.scenario({
@@ -374,32 +374,32 @@ formatter.match({
   "location": "StarWarsStepDefi.userMustBeOnSwapiHomepage()"
 });
 formatter.result({
-  "duration": 8296048700,
+  "duration": 6732371300,
   "status": "passed"
 });
 formatter.match({
   "location": "StarWarsStepDefi.searchWithInvalidData()"
 });
 formatter.result({
-  "duration": 56166900,
+  "duration": 101010000,
   "status": "passed"
 });
 formatter.match({
   "location": "StarWarsStepDefi.requestButtonforSearchInvalidData()"
 });
 formatter.result({
-  "duration": 261348400,
+  "duration": 262773700,
   "status": "passed"
 });
 formatter.match({
   "location": "StarWarsStepDefi.resultofSearchWithInvalidData()"
 });
 formatter.result({
-  "duration": 43145900,
+  "duration": 56190600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1630403600,
+  "duration": 1960362700,
   "status": "passed"
 });
 formatter.scenario({
@@ -440,32 +440,32 @@ formatter.match({
   "location": "StarWarsStepDefi.userIsOnHomepageofSwapi()"
 });
 formatter.result({
-  "duration": 7395334300,
+  "duration": 6894225600,
   "status": "passed"
 });
 formatter.match({
   "location": "StarWarsStepDefi.blankServiceURLField()"
 });
 formatter.result({
-  "duration": 102843100,
+  "duration": 52699300,
   "status": "passed"
 });
 formatter.match({
   "location": "StarWarsStepDefi.clickRequestforBlankURL()"
 });
 formatter.result({
-  "duration": 265574700,
+  "duration": 255904100,
   "status": "passed"
 });
 formatter.match({
   "location": "StarWarsStepDefi.blankServiceURLResult()"
 });
 formatter.result({
-  "duration": 43509900,
+  "duration": 41370700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1475512900,
+  "duration": 1537640000,
   "status": "passed"
 });
 });

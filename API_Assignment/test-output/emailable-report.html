@@ -9,47 +9,11 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">8,432</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">10,342</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">StarWarsAPI.StarWarsAPITestig</td><td><a href="#m0">BlankSearch</a></td><td rowspan="1">1618545244288</td><td rowspan="1">1824</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">StarWarsAPI.StarWarsAPITestig</td><td><a href="#m1">allCharInvalidTest</a></td><td rowspan="1">1618545240405</td><td rowspan="1">820</td></tr><tr class="passedeven"><td><a href="#m2">allCharValidTest</a></td><td rowspan="1">1618545237734</td><td rowspan="1">2666</td></tr><tr class="passedeven"><td><a href="#m3">searchPlanetsInvalidTest</a></td><td rowspan="1">1618545243552</td><td rowspan="1">728</td></tr><tr class="passedeven"><td><a href="#m4">searchPlanetsValidTest</a></td><td rowspan="1">1618545242814</td><td rowspan="1">735</td></tr><tr class="passedeven"><td><a href="#m5">specificCharInvalidTest</a></td><td rowspan="1">1618545241974</td><td rowspan="1">836</td></tr><tr class="passedeven"><td><a href="#m6">specificCharValidTest</a></td><td rowspan="1">1618545241229</td><td rowspan="1">742</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="7">StarWarsAPI.StarWarsAPITestig</td><td><a href="#m0">BlankSearch</a></td><td rowspan="1">1618599446325</td><td rowspan="1">1739</td></tr><tr class="passedeven"><td><a href="#m1">allCharInvalidTest</a></td><td rowspan="1">1618599442547</td><td rowspan="1">735</td></tr><tr class="passedeven"><td><a href="#m2">allCharValidTest</a></td><td rowspan="1">1618599437850</td><td rowspan="1">4684</td></tr><tr class="passedeven"><td><a href="#m3">searchPlanetsInvalidTest</a></td><td rowspan="1">1618599445515</td><td rowspan="1">806</td></tr><tr class="passedeven"><td><a href="#m4">searchPlanetsValidTest</a></td><td rowspan="1">1618599444783</td><td rowspan="1">729</td></tr><tr class="passedeven"><td><a href="#m5">specificCharInvalidTest</a></td><td rowspan="1">1618599444010</td><td rowspan="1">770</td></tr><tr class="passedeven"><td><a href="#m6">specificCharValidTest</a></td><td rowspan="1">1618599443288</td><td rowspan="1">719</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">StarWarsAPI.StarWarsAPITestig#BlankSearch</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [404] but found [200]
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:907)
-	at org.testng.Assert.assertEquals(Assert.java:917)
-	at StarWarsAPI.StarWarsAPITestig.BlankSearch(StarWarsAPITestig.java:78)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Default test</h2><h3 id="m0">StarWarsAPI.StarWarsAPITestig#BlankSearch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">StarWarsAPI.StarWarsAPITestig#allCharInvalidTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">StarWarsAPI.StarWarsAPITestig#allCharValidTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m3">StarWarsAPI.StarWarsAPITestig#searchPlanetsInvalidTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>

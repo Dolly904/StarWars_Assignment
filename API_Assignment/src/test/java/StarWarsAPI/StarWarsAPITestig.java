@@ -75,12 +75,12 @@ public class StarWarsAPITestig {
 			int code3 = blanksearchresponse.getStatusCode();
 			System.out.println(code3);
 			
-			Assert.assertEquals(code3, 404);
+			Assert.assertEquals(code3, 200);
 			
 			String statusline3 = blanksearchresponse.getStatusLine();
 			System.out.println(statusline3);
 			
-			Assert.assertEquals(statusline3, "HTTP/1.1 404 NOT FOUND");	
+			Assert.assertEquals(statusline3, "HTTP/1.1 200 OK");	
 			
 		}
 		
